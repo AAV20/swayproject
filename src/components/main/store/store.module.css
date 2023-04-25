@@ -1,0 +1,115 @@
+.storeSection{
+    width: 80%;
+    margin: 130px auto;
+}
+
+.store_image_block{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    column-gap: 1.3vw;
+    grid-template-columns: repeat(4, 15vw);
+}
+
+.store_child_blocks img{
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.store_child_blocks{
+    width: 15vw;
+    height: 22vw;
+}
+
+.store_price_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store_child_blocks>h4{
+    padding: 14px 0 14px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #1E266D;
+}
+
+.store_child_blocks>span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #696969;
+}
+
+.storeContent>h2{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.star{
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.4rem;
+    color: #F5AD0D;
+}
+
+
+.image_sale_block{
+    position: relative;
+    overflow: hidden;
+}
+
+.sale{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 83px;
+    height: 29px;
+    background: #00D664;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 2.5px;
+    color: #fff;
+}
+
+.storeBtn_block{
+    display: flex;
+    justify-content: center;
+    margin-top: 145px;
+}
+.storeBtn{
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    background: #00D664;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.storeBtn:hover{
+    background-color: #33b670;
+}

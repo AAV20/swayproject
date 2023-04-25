@@ -1,0 +1,74 @@
+.subscribeContent{
+    width: 80%;
+    margin: 200px auto;
+}
+
+.subscribe_text h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #39374D;
+}
+
+.checkbox_block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 17px;
+}
+
+.email{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1vw;
+    text-indent: 20px;
+    letter-spacing: -0.01em;
+    color: #1E266D;
+    background: #EDFCF4;
+    border: 1px solid #F3F3F3;
+    border-radius: 30px;
+    width: 71%;
+    height: 39px;
+}
+
+.subscribe_btn{
+    background: #00D664;
+    border-radius: 27.5px;
+    padding: 10px 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border:  none;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.subscribe_btn:hover{
+    background-color: #33b670;
+
+}
+
+.subscribeContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.map_block{
+    width: 100%;
+}
+
+.map{
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+}

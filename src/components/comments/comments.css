@@ -1,0 +1,124 @@
+.slide_child_blocks{
+    width: 25vw;
+    height: 23vw;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+}
+
+.commentSection{
+    padding-bottom: 150px;
+}
+
+.user_descr{
+    display: flex;
+    align-items: center;
+    padding-bottom: 22px;
+    gap:17px;
+}
+
+.user_descr img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user_name_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_name_block h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: 22px;
+    color: #00D664;
+}
+
+.user_name_block span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 22px;
+    color: #ACACAC;
+}
+
+.icons_block{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.icons_block>h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4vw;
+    line-height: 22px;
+    color: #1E266D;
+}
+
+.user_text_block>p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9vw;
+    line-height: 24px;
+    color: #696969;
+    padding: 30px 0 20px 0;
+}
+
+.user_info_block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+
+
+.star_block{
+    display: flex;
+    align-items: center;
+}
+
+.star_block>span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6vw;
+    line-height: 24px;
+    color: #F5AD0D;
+    padding-right: 15px;
+}
+
+.star{
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.4rem;
+    color: #F5AD0D;
+}
+
+.user_child_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.swiper-slide {
+    display: flex !important;
+    justify-content: center;
+    gap: 2vw;
+}
+

@@ -1,0 +1,157 @@
+/* main-section-style */
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 128px;
+}
+
+.texts>h3{
+    font-family: 'Mrs Saint Delafield';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.1vw;
+    line-height: 27px;
+    text-align: center;
+    color: #ACACAC;
+    padding-bottom: 24px;
+}
+
+.texts>h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.1vw;
+    line-height: 58px;
+    text-align: center;
+    color: #1E266D;
+    padding-bottom: 24px;
+
+}
+
+.texts>p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.95vw;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #696969;
+}
+
+.flexBlock{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 15px;
+
+}
+
+.foodBlock{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.foodDescr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foodDescr>h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.45vw;
+    line-height: 36px;
+    color: #1E266D;
+    padding-bottom: 45px;
+}
+
+
+.flexChild>h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+    line-height: 44px;
+    color: #1E266D;
+}
+
+.flexChild>p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9vw;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #696969;
+    padding-bottom: 15px;
+}
+
+.flexBlock>img{
+    width: 2vw;
+    height: 2vw;
+}
+
+.main_Image_Block{
+   flex-basis: 32%;
+   border-radius: 10px;
+   margin-bottom: 30px;
+   position: relative;
+   overflow: hidden;
+   cursor: pointer;
+
+}
+
+.main_Image_Block>img{
+    width: 100%;
+    height: 24vw;
+    border-radius: 10px;
+}
+
+.layer{
+    background-color: transparent;
+    height: 24vw;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.layer:hover{
+    background: rgb(0, 0, 0,0.5);
+}
+
+.layer>h3{
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.8vw;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+.icn{
+    margin-top: 10px;
+}
